@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Trask</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="https://avatars.githubusercontent.com/u/4328594?v=4" alt="Andrew Trask" class="profile-photo">
+                <div class="header-text">
+                    <h1>Andrew Trask</h1>
+                    <p class="tagline">Privacy-Preserving AI Researcher</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com/iamtrask" title="Twitter">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="https://github.com/iamtrask" title="GitHub">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/andrew-trask-3763ba15b/" title="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=2Ajxf1sAAAAJ&hl=en" title="Google Scholar">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+                        </a>
+                        <a href="https://andrewtrask.substack.com/" title="Substack">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+                        </a>
+                        <a href="https://iamtrask.github.io" title="Blog">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Timeline Section - Time-scaled layout -->
+        <!-- Timeline spans 2009 to Now (2026) = 17 years -->
+        <!-- Now=0%, 2024=12%, 2019=41%, 2017=53%, 2016=59%, 2015=65%, 2014=71%, 2009=100% -->
+        <section id="timeline" class="timeline">
+            <div class="scaled-timeline">
+                <!-- Year markers on left -->
+                <div class="year-axis">
+                    <span class="year-mark" style="top: 0%;">Now</span>
+                    <span class="year-mark" style="top: 12%;">2024</span>
+                    <span class="year-mark" style="top: 41%;">2019</span>
+                    <span class="year-mark" style="top: 53%;">2017</span>
+                    <span class="year-mark" style="top: 59%;">2016</span>
+                    <span class="year-mark" style="top: 71%;">2014</span>
+                    <span class="year-mark" style="top: 100%;">2009</span>
+                </div>
+
+                <!-- Timeline columns - newest to oldest (left to right) -->
+                <div class="timeline-tracks">
+                    <!-- CFR: 2024 (12%) to Now (0%) -->
+                    <div class="track" data-years="2024 - Now">
+                        <div class="track-line" style="top: 0%; height: 12%;">
+                            <span class="track-dot ongoing" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 5%;">
+                            <div class="track-logo-text cfr">cfr</div>
+                            <p>Term Member at <a href="https://www.cfr.org">Council on Foreign Relations</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- DeepMind: 2017 (53%) to Now (0%) -->
+                    <div class="track" data-years="2017 - Now">
+                        <div class="track-line" style="top: 0%; height: 53%;">
+                            <span class="track-dot ongoing" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 5%;">
+                            <img src="https://avatars.githubusercontent.com/u/8596759?s=200&v=4" alt="Google DeepMind" class="track-logo">
+                            <p>Senior Research Scientist at <a href="https://deepmind.google">Google DeepMind</a>, studying privacy and AI: federated learning, differential privacy, and secure computation.</p>
+                        </div>
+                    </div>
+
+                    <!-- OpenMined: 2017 (53%) to Now (0%) -->
+                    <div class="track" data-years="2017 - Now">
+                        <div class="track-line" style="top: 0%; height: 53%;">
+                            <span class="track-dot ongoing" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 5%;">
+                            <img src="https://avatars.githubusercontent.com/u/30185530?s=200&v=4" alt="OpenMined" class="track-logo">
+                            <p>Founder at <a href="https://openmined.org">OpenMined</a>, an open-source community of 18,000+ researchers building privacy-preserving AI tools. Created <a href="https://github.com/OpenMined/PySyft">PySyft</a> and free <a href="https://courses.openmined.org/courses/our-privacy-opportunity">courses</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Oxford: 2016 (59%) to Now (0%) - still ABD -->
+                    <div class="track" data-years="2016 - Now">
+                        <div class="track-line" style="top: 0%; height: 59%;">
+                            <span class="track-dot ongoing" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 5%;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Oxford-University-Circlet.svg/200px-Oxford-University-Circlet.svg.png" alt="Oxford" class="track-logo" onerror="this.outerHTML='<div class=\'track-logo-text oxford\'>Ox</div>'">
+                            <p>PhD student (ABD) at <a href="https://www.ox.ac.uk">University of Oxford</a>, focusing on privacy-preserving ML. Funded by the Oxford-DeepMind Graduate Scholarship. Affiliated with <a href="https://www.fhi.ox.ac.uk">FHI</a> and <a href="https://www.governance.ai">GovAI</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Grokking Deep Learning: 2015 (65%) to 2019 (41%) -->
+                    <div class="track" data-years="2015 - 2019">
+                        <div class="track-line ended" style="top: 41%; height: 24%;">
+                            <span class="track-dot end" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 43%;">
+                            <img src="https://images.manning.com/360/480/resize/book/1/831bea7-12bc-4438-91fa-b3af12e50b00/Trask_GDL_hires.png" alt="Grokking Deep Learning" class="track-logo book">
+                            <p>Wrote <a href="https://www.manning.com/books/grokking-deep-learning">Grokking Deep Learning</a> (Manning). Also teach in <a href="https://www.udacity.com/course/deep-learning-nanodegree--nd101">Udacity's Deep Learning Nanodegree</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Digital Reasoning: 2014 (71%) to 2017 (53%) -->
+                    <div class="track" data-years="2014 - 2017">
+                        <div class="track-line ended" style="top: 53%; height: 18%;">
+                            <span class="track-dot end" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 55%;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6Q_xxm--l8DPaBT8i5TeNr8H-sVT9dxFMA&s" alt="Digital Reasoning" class="track-logo">
+                            <p>Researcher at <a href="https://www.digitalreasoning.com">Digital Reasoning</a>, training the <a href="https://spectrum.ieee.org/biggest-neural-network-ever-pushes-ai-deep-learning">world's largest neural network</a> (160B params). <a href="https://arxiv.org/abs/1506.02338">ICML</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Belmont University: 2009 (100%) to 2014 (71%) -->
+                    <div class="track" data-years="2009 - 2014">
+                        <div class="track-line ended" style="top: 71%; height: 29%;">
+                            <span class="track-dot end" style="top: 0;"></span>
+                            <span class="track-dot start" style="bottom: 0;"></span>
+                        </div>
+                        <div class="track-content" style="top: 73%;">
+                            <img src="https://www.belmont.edu/umac/brand/_images/logo-primary.svg" alt="Belmont University" class="track-logo" onerror="this.outerHTML='<div class=\'track-logo-text belmont\'>BU</div>'">
+                            <p>BS in Applied Discrete Mathematics and BBA in Finance at <a href="https://www.belmont.edu">Belmont University</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bio">
+            <p>I'm the founder of <a href="https://openmined.org">OpenMined</a>, working on technologies to increase the capability of and deconcentrate power over AI by combining deep learning, cryptography, and distributed systems. I'm particularly interested in attribution-based control for AI systems and broad listening. PhD student at <a href="https://www.ox.ac.uk">Oxford</a>. Research Scientist at <a href="https://deepmind.google">Google DeepMind</a>. Term Member at the <a href="https://www.cfr.org">CFR</a>.</p>
+        </section>
+
+        <section id="publications">
+            <h2>publications</h2>
+            <p class="pub-meta"><a href="https://scholar.google.com/citations?user=2Ajxf1sAAAAJ&hl=en">Google Scholar</a> &middot; <a href="https://dblp.org/pid/164/5786.html">DBLP</a></p>
+
+            <ul class="papers">
+                <li><span class="paper-year">2025</span> <a href="https://arxiv.org/abs/2502.16701">Beyond Release: Access Considerations for Generative AI Systems</a>,arXiv</li>
+                <li><span class="paper-year">2025</span> <a href="https://arxiv.org/abs/2511.02055">Private Map-Secure Reduce: Infrastructure for Efficient AI Data Markets</a>,arXiv</li>
+                <li><span class="paper-year">2025</span> <a href="https://ssrn.com/abstract=5403981">Robust AI Personalization Will Require a Human Context Protocol</a>,SSRN</li>
+                <li><span class="paper-year">2025</span> <a href="#">Now is the time for Privacy Enhancing Technologies</a>,Statistical Journal of the IAOS</li>
+                <li><span class="paper-year">2024</span> <a href="https://arxiv.org/abs/2407.14981">Open Problems in Technical AI Governance</a>,arXiv</li>
+                <li><span class="paper-year">2024</span> <a href="https://arxiv.org/abs/2404.16244">The Ethics of Advanced AI Assistants</a>,arXiv</li>
+                <li><span class="paper-year">2024</span> <a href="#">Personhood Credentials: AI and the Value of Privacy-Preserving Tools to Distinguish Who is Real Online</a></li>
+                <li><span class="paper-year">2023</span> <a href="https://arxiv.org/abs/2301.06167">UN Handbook on Privacy-Preserving Computation Techniques</a>,United Nations</li>
+                <li><span class="paper-year">2023</span> <a href="https://arxiv.org/abs/2303.08956">Exploring the Relevance of Data Privacy-Enhancing Technologies for AI Governance Use Cases</a>,arXiv</li>
+                <li><span class="paper-year">2022</span> <a href="#">Artificial Intelligence in Medicine and Privacy Preservation</a>,Book chapter</li>
+                <li><span class="paper-year">2021</span> <a href="https://www.nature.com/articles/s42256-021-00337-8">End-to-end Privacy Preserving Deep Learning on Multi-institutional Medical Imaging</a>,Nature MI</li>
+                <li><span class="paper-year">2021</span> <a href="https://link.springer.com/chapter/10.1007/978-3-030-70604-3_5">PySyft: A Library for Easy Federated Learning</a>,Springer</li>
+                <li><span class="paper-year">2021</span> <a href="https://arxiv.org/abs/2106.12576">DP-SGD vs PATE: Which Has Less Disparate Impact on Model Accuracy?</a>,arXiv</li>
+                <li><span class="paper-year">2021</span> <a href="https://arxiv.org/abs/2104.12385">Syft 0.5: A Platform for Universally Deployable Structured Transparency</a>,arXiv</li>
+                <li><span class="paper-year">2021</span> <a href="https://arxiv.org/abs/2107.04265">Sensitivity Analysis in Differentially Private ML Using Hybrid Automatic Differentiation</a>,arXiv</li>
+                <li><span class="paper-year">2021</span> <a href="https://arxiv.org/abs/2109.10573">An Automatic Differentiation System for the Age of Differential Privacy</a>,arXiv</li>
+                <li><span class="paper-year">2021</span> <a href="https://arxiv.org/abs/2110.01315">Towards General-purpose Infrastructure for Protecting Scientific Data Under Study</a>,PPML Workshop</li>
+                <li><span class="paper-year">2020</span> <a href="https://www.nature.com/articles/s41746-020-00323-1">The Future of Digital Health with Federated Learning</a>,NPJ Digital Medicine</li>
+                <li><span class="paper-year">2020</span> <a href="https://arxiv.org/abs/2004.07213">Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims</a>,arXiv</li>
+                <li><span class="paper-year">2020</span> <a href="#">Neither Private Nor Fair: Impact of Data Imbalance on Utility and Fairness in DP</a>,PPML</li>
+                <li><span class="paper-year">2020</span> <a href="https://arxiv.org/abs/2012.08347">Beyond Privacy Trade-offs with Structured Transparency</a>,arXiv</li>
+                <li><span class="paper-year">2020</span> <a href="https://arxiv.org/abs/2012.06354">Privacy-Preserving Medical Image Analysis</a>,arXiv</li>
+                <li><span class="paper-year">2020</span> <a href="https://arxiv.org/abs/2005.13099">Benchmarking Differentially Private Residual Networks for Medical Imagery</a>,arXiv</li>
+                <li><span class="paper-year">2019</span> <a href="https://patents.google.com/patent/US10339440">Systems and Methods for Neural Language Modeling</a>,US Patent</li>
+                <li><span class="paper-year">2018</span> <a href="https://arxiv.org/abs/1808.00508">Neural Arithmetic Logic Units</a>,NeurIPS</li>
+                <li><span class="paper-year">2018</span> <a href="https://arxiv.org/abs/1811.04017">A Generic Framework for Privacy Preserving Deep Learning</a>,arXiv</li>
+                <li><span class="paper-year">2018</span> <a href="https://arxiv.org/abs/1809.10460">Sample Efficient Adaptive Text-to-Speech</a>,arXiv</li>
+                <li><span class="paper-year">2018</span> <a href="https://arxiv.org/abs/1812.05979">Scaling Shared Model Governance via Model Splitting</a>,arXiv</li>
+                <li><span class="paper-year">2015</span> <a href="https://arxiv.org/abs/1511.06388">sense2vec: Fast and Accurate Word Sense Disambiguation in Neural Embeddings</a>,arXiv</li>
+                <li><span class="paper-year">2015</span> <a href="https://proceedings.mlr.press/v37/trask15.html">Modeling Order in Neural Word Embeddings at Scale</a>,ICML (Oral)</li>
+            </ul>
+        </section>
+
+        <section id="teaching">
+            <h2>teaching</h2>
+
+            <div class="course-grid">
+                <a href="https://www.udacity.com/course/deep-learning-nanodegree--nd101" class="course-card">
+                    <div class="course-thumbnail udacity-course">
+                        <span>Udacity</span>
+                    </div>
+                    <div class="course-info">
+                        <strong>Deep Learning Nanodegree</strong>
+                        <span class="course-role">Guest Instructor</span>
+                        <p>Teaches sentiment analysis with neural networks for text processing.</p>
+                        <span class="course-stats">18,000+ students</span>
+                    </div>
+                </a>
+
+                <a href="https://courses.openmined.org/courses/our-privacy-opportunity" class="course-card">
+                    <div class="course-thumbnail openmined-course">
+                        <span>OpenMined</span>
+                    </div>
+                    <div class="course-info">
+                        <strong>Our Privacy Opportunity</strong>
+                        <span class="course-role">Course Creator</span>
+                        <p>Privacy infrastructure and structured transparency. Free with certificate.</p>
+                        <span class="course-stats">~7 hours</span>
+                    </div>
+                </a>
+
+                <a href="https://courses.openmined.org/courses/foundations-of-private-computation" class="course-card">
+                    <div class="course-thumbnail openmined-course">
+                        <span>OpenMined</span>
+                    </div>
+                    <div class="course-info">
+                        <strong>Foundations of Private Computation</strong>
+                        <span class="course-role">Course Creator</span>
+                        <p>Homomorphic encryption, MPC, and differential privacy.</p>
+                        <span class="course-stats">Free</span>
+                    </div>
+                </a>
+
+                <a href="https://courses.openmined.org/courses/introduction-to-remote-data-science" class="course-card">
+                    <div class="course-thumbnail openmined-course">
+                        <span>OpenMined</span>
+                    </div>
+                    <div class="course-info">
+                        <strong>Introduction to Remote Data Science</strong>
+                        <span class="course-role">Course Creator</span>
+                        <p>Cross-organizational federated learning systems.</p>
+                        <span class="course-stats">Free</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="talks">
+            <h2>featured talks</h2>
+
+            <div class="video-grid">
+                <a href="https://www.youtube.com/watch?v=4zrU54VIK6k" class="video-card">
+                    <img src="https://img.youtube.com/vi/4zrU54VIK6k/hqdefault.jpg" alt="MIT Deep Learning Lecture">
+                    <div class="video-info">
+                        <strong>Privacy Preserving AI</strong>
+                        <span>MIT Deep Learning Series (Lex Fridman)</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=NJBBE_SN90A" class="video-card">
+                    <img src="https://img.youtube.com/vi/NJBBE_SN90A/hqdefault.jpg" alt="Private AI">
+                    <div class="video-info">
+                        <strong>Private AI</strong>
+                        <span>PyTorch · Nov 2019</span>
+                    </div>
+                </a>
+
+                <a href="https://raais.co/speakers-2019-andrew-trask-oxford-openmined-deepmind" class="video-card talk-card">
+                    <div class="talk-thumbnail raais">
+                        <span>RAAIS 2019</span>
+                    </div>
+                    <div class="video-info">
+                        <strong>Privacy and Deep Learning</strong>
+                        <span>RAAIS Conference</span>
+                    </div>
+                </a>
+
+                <a href="https://conferences.oreilly.com/artificial-intelligence/ai-eu-2018/public/schedule/speaker/332110.html" class="video-card talk-card">
+                    <div class="talk-thumbnail oreilly">
+                        <span>O'Reilly AI</span>
+                    </div>
+                    <div class="video-info">
+                        <strong>AI Conference Speaker</strong>
+                        <span>O'Reilly AI Conference 2018</span>
+                    </div>
+                </a>
+
+                <a href="https://videolectures.net/videos/icml2015_gilmore_trask_modeling_order" class="video-card">
+                    <img src="icml-2015-thumbnail.png" alt="ICML 2015">
+                    <div class="video-info">
+                        <strong>Modeling Order in Neural Word Embeddings at Scale</strong>
+                        <span>ICML 2015</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=qJ1rdVEcl5g" class="video-card">
+                    <img src="https://img.youtube.com/vi/qJ1rdVEcl5g/hqdefault.jpg" alt="Really Quick Questions with an AI Researcher">
+                    <div class="video-info">
+                        <strong>Really Quick Questions with an AI Researcher</strong>
+                        <span>Siraj Raval · Aug 2017</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=VWgeg-OF-Xw" class="video-card">
+                    <img src="https://img.youtube.com/vi/VWgeg-OF-Xw/hqdefault.jpg" alt="Discover Oxford AI">
+                    <div class="video-info">
+                        <strong>Discover Oxford AI</strong>
+                        <span>Oxford University · Oct 2018</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=sCoDWKTbh3s" class="video-card">
+                    <img src="https://img.youtube.com/vi/sCoDWKTbh3s/hqdefault.jpg" alt="Introduction to Remote Data Science">
+                    <div class="video-info">
+                        <strong>Introduction to Remote Data Science</strong>
+                        <span>Dec 2021</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=am7bJc5xC8s" class="video-card">
+                    <img src="https://img.youtube.com/vi/am7bJc5xC8s/hqdefault.jpg" alt="The future of AI Infrastructure">
+                    <div class="video-info">
+                        <strong>The Future of AI Infrastructure</strong>
+                        <span>Cohere For AI · Aug 2024</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=m5p5UFAboqc" class="video-card">
+                    <img src="https://img.youtube.com/vi/m5p5UFAboqc/hqdefault.jpg" alt="OpenMined – A Decentralised AI Platform">
+                    <div class="video-info">
+                        <strong>OpenMined – A Decentralised AI Platform</strong>
+                        <span>Epicenter · Jan 2018</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=fYRpREamHgg" class="video-card">
+                    <img src="https://img.youtube.com/vi/fYRpREamHgg/hqdefault.jpg" alt="Discussion with Andrew Trask from OpenMined">
+                    <div class="video-info">
+                        <strong>Discussion with Andrew Trask from OpenMined</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=GJFecMdFy1g" class="video-card">
+                    <img src="https://img.youtube.com/vi/GJFecMdFy1g/hqdefault.jpg" alt="OpenMined Keynote @ AI Decentralized">
+                    <div class="video-info">
+                        <strong>OpenMined Keynote @ AI Decentralized</strong>
+                        <span>Aug 2017</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=6csqkCytNc4" class="video-card">
+                    <img src="https://img.youtube.com/vi/6csqkCytNc4/hqdefault.jpg" alt="Introducing The Private AI Series">
+                    <div class="video-info">
+                        <strong>Introducing The Private AI Series</strong>
+                        <span>Global Speakers Bureau · Feb 2024</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=pwjXT4YzBG8" class="video-card">
+                    <img src="https://img.youtube.com/vi/pwjXT4YzBG8/hqdefault.jpg" alt="Privacy-preserving AI">
+                    <div class="video-info">
+                        <strong>Privacy-preserving AI</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=bs1XGACFZtU" class="video-card">
+                    <img src="https://img.youtube.com/vi/bs1XGACFZtU/hqdefault.jpg" alt="TPG Demo Day - Facilitating Access to Non-Public Data">
+                    <div class="video-info">
+                        <strong>TPG Demo Day - Facilitating Access to Non-Public Data</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=UDBgeXspkZ0" class="video-card">
+                    <img src="https://img.youtube.com/vi/UDBgeXspkZ0/hqdefault.jpg" alt="Changing how LLMs store and access information">
+                    <div class="video-info">
+                        <strong>Changing how LLMs store and access information</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=Pr4erdusiW0" class="video-card">
+                    <img src="https://img.youtube.com/vi/Pr4erdusiW0/hqdefault.jpg" alt="Privacy-Preserving Decentralized Data Science">
+                    <div class="video-info">
+                        <strong>Privacy-Preserving Decentralized Data Science</strong>
+                        <span>TWiML Talk #241</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=MP1ZVKgpYTk" class="video-card">
+                    <img src="https://img.youtube.com/vi/MP1ZVKgpYTk/hqdefault.jpg" alt="OpenMined AMA with Andrew Trask">
+                    <div class="video-info">
+                        <strong>OpenMined AMA with Andrew Trask</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=-rPrSh9NJqk" class="video-card">
+                    <img src="https://img.youtube.com/vi/-rPrSh9NJqk/hqdefault.jpg" alt="RAAIS 2019 Panel">
+                    <div class="video-info">
+                        <strong>In Conversation with Morten Dahl, Peter Eckersley & Brendan McMahan</strong>
+                        <span>RAAIS 2019</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=yUXwsNmeHAc" class="video-card">
+                    <img src="https://img.youtube.com/vi/yUXwsNmeHAc/hqdefault.jpg" alt="Intro to Privacy Preserving AI">
+                    <div class="video-info">
+                        <strong>Intro to Privacy Preserving Artificial Intelligence</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=kzLeTz_vIeQ" class="video-card">
+                    <img src="https://img.youtube.com/vi/kzLeTz_vIeQ/hqdefault.jpg" alt="The Future of AI Tools">
+                    <div class="video-info">
+                        <strong>The Future of AI Tools</strong>
+                        <span>PyTorch Developer Day 2020</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=GQzz0sHIMMA" class="video-card">
+                    <img src="https://img.youtube.com/vi/GQzz0sHIMMA/hqdefault.jpg" alt="F8 2019 Udacity ML Course">
+                    <div class="video-info">
+                        <strong>Udacity's New Machine Learning Course</strong>
+                        <span>F8 2019</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=9qYDtt2XM2o" class="video-card">
+                    <img src="https://img.youtube.com/vi/9qYDtt2XM2o/hqdefault.jpg" alt="Demo: Doing Data Science on Remote Data">
+                    <div class="video-info">
+                        <strong>Demo: Doing Data Science on Remote Data</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=HcVQeGCNfiM" class="video-card">
+                    <img src="https://img.youtube.com/vi/HcVQeGCNfiM/hqdefault.jpg" alt="Privacy-Preserving AI">
+                    <div class="video-info">
+                        <strong>Privacy-Preserving AI</strong>
+                        <span>FLOW Seminar #29</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=dss2o503psA" class="video-card">
+                    <img src="https://img.youtube.com/vi/dss2o503psA/hqdefault.jpg" alt="Private AI Education Series Announcement">
+                    <div class="video-info">
+                        <strong>Private AI Education Series Announcement</strong>
+                        <span>PyTorch Developer Day 2020</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=ZdfpXIyY9iY" class="video-card">
+                    <img src="https://img.youtube.com/vi/ZdfpXIyY9iY/hqdefault.jpg" alt="Welcome Event: The Private AI Series">
+                    <div class="video-info">
+                        <strong>Welcome Event: The Private AI Series</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=wt8M89Kwf20" class="video-card">
+                    <img src="https://img.youtube.com/vi/wt8M89Kwf20/hqdefault.jpg" alt="OpenMined Welcome Talk and Conference Overview">
+                    <div class="video-info">
+                        <strong>OpenMined Welcome Talk and Conference Overview</strong>
+                        <span>PriCon 2020</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=8UQzJaa0HPU" class="video-card">
+                    <img src="https://img.youtube.com/vi/8UQzJaa0HPU/hqdefault.jpg" alt="On Deep Learning with Ian Goodfellow">
+                    <div class="video-info">
+                        <strong>On Deep Learning with Ian Goodfellow & Udacity Team</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=ReeOy4udIwc" class="video-card">
+                    <img src="https://img.youtube.com/vi/ReeOy4udIwc/hqdefault.jpg" alt="AI and Judgement - Clinical Medicine">
+                    <div class="video-info">
+                        <strong>AI and Judgement - Clinical Medicine</strong>
+                        <span>Ethics in AI Workshop</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=KrjyfZDERsI" class="video-card">
+                    <img src="https://img.youtube.com/vi/KrjyfZDERsI/hqdefault.jpg" alt="OpenMined Paris Meetup">
+                    <div class="video-info">
+                        <strong>OpenMined Paris Meetup</strong>
+                        <span>July 2020</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=blldf6iH1WM" class="video-card">
+                    <img src="https://img.youtube.com/vi/blldf6iH1WM/hqdefault.jpg" alt="Panel Discussion on Federated Learning Applications">
+                    <div class="video-info">
+                        <strong>Panel Discussion on Federated Learning Applications</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=k_EvCHqi8Nc" class="video-card">
+                    <img src="https://img.youtube.com/vi/k_EvCHqi8Nc/hqdefault.jpg" alt="A Tutorial on Remote Data Science">
+                    <div class="video-info">
+                        <strong>A Tutorial on Remote Data Science</strong>
+                        <span>Global Network Webinar</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="book">
+            <h2>book</h2>
+            <div class="book-section">
+                <a href="https://www.manning.com/books/grokking-deep-learning" class="book-cover">
+                    <img src="https://images.manning.com/360/480/resize/book/1/831bea7-12bc-4438-91fa-b3af12e50b00/Trask_GDL_hires.png" alt="Grokking Deep Learning">
+                </a>
+                <div class="book-info">
+                    <h3><a href="https://www.manning.com/books/grokking-deep-learning">Grokking Deep Learning</a></h3>
+                    <p class="book-meta">Manning Publications, 2019 &middot; 10,000+ copies sold</p>
+                    <p>
+                        Learn to build neural networks from scratch using only Python and NumPy. No frameworks, no magic&mdash;just the fundamentals.
+                    </p>
+                    <div class="book-links">
+                        <a href="https://www.manning.com/books/grokking-deep-learning">Manning</a>
+                        <a href="https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709">Amazon</a>
+                        <a href="https://github.com/iamtrask/Grokking-Deep-Learning">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>blog posts</h2>
+            <p>From <a href="https://openmined.org/blog/author/andrew-trask/">OpenMined</a> and <a href="https://iamtrask.github.io">iamtrask.github.io</a></p>
+            <ul class="blog-posts">
+                <li>
+                    <span class="date">2025-10-19</span>
+                    <a href="https://openmined.org/blog/gpu-demand-distorted-by-ai-efficiency/">GPU demand is (~1Mx) distorted by efficiency problems which are being solved</a>
+                </li>
+                <li>
+                    <span class="date">2025-10-06</span>
+                    <a href="https://openmined.org/blog/unlocking-a-million-times-more-data-for-ai-through-attribution-based-control/">Unlocking a Million Times More Data for AI Through Attribution-Based Control</a>
+                </li>
+                <li>
+                    <span class="date">2025-10-06</span>
+                    <a href="https://openmined.org/blog/the-bitter-lessons-bitter-lesson/">The Bitter Lesson's Bitter Lesson</a>
+                </li>
+                <li>
+                    <span class="date">2025-09-01</span>
+                    <a href="https://openmined.org/blog/what-is-broad-listening/">What is Broad Listening?</a>
+                </li>
+                <li>
+                    <span class="date">2023-11-21</span>
+                    <a href="https://openmined.org/blog/openmineds-written-statement-for-the-u-s-senate-ai-insight-forum-transparency-explainability-intellectual-property-copyright/">Written Statement for the U.S. Senate AI Insight Forum</a>
+                </li>
+                <li>
+                    <span class="date">2022-01-20</span>
+                    <a href="https://openmined.org/blog/announcing-our-partnership-with-twitter-to-advance-algorithmic-transparency/">Announcing our partnership with Twitter to advance algorithmic transparency</a>
+                </li>
+                <li>
+                    <span class="date">2020-03-16</span>
+                    <a href="https://openmined.org/blog/join-the-syft-core-team/">Apply to Join the Syft Core Team</a>
+                </li>
+                <li>
+                    <span class="date">2020-03-05</span>
+                    <a href="https://openmined.org/blog/apheris-openmined-pytorch-announcement/">OpenMined + apheris AI Partnership for PyTorch Mobile Federated Learning</a>
+                </li>
+                <li>
+                    <span class="date">2020-03-05</span>
+                    <a href="https://openmined.org/blog/introducing-openmined-research/">Introducing OpenMined Research</a>
+                </li>
+                <li>
+                    <span class="date">2019-12-06</span>
+                    <a href="https://openmined.org/blog/openmined-and-pytorch-join-forces-to-advance-privacy-preserving-machine-learning/">OpenMined and PyTorch Join Forces to Advance Privacy-Preserving Machine Learning</a>
+                </li>
+                <li>
+                    <span class="date">2017-06-19</span>
+                    <a href="https://iamtrask.github.io/2017/06/19/randomness/">Is the Universe Random?</a>
+                </li>
+                <li>
+                    <span class="date">2017-06-05</span>
+                    <a href="https://iamtrask.github.io/2017/06/05/homomorphic-surveillance/">Safe Crime Detection</a>
+                </li>
+                <li>
+                    <span class="date">2017-03-21</span>
+                    <a href="https://iamtrask.github.io/2017/03/21/synthetic-gradients/">Deep Learning without Backpropagation</a>
+                </li>
+                <li>
+                    <span class="date">2017-03-17</span>
+                    <a href="https://iamtrask.github.io/2017/03/17/safe-ai/">Building Safe A.I.</a>
+                </li>
+                <li>
+                    <span class="date">2017-01-15</span>
+                    <a href="https://iamtrask.github.io/2017/01/15/pytorch-tutorial/">Tutorial: Deep Learning in PyTorch</a>
+                </li>
+                <li>
+                    <span class="date">2016-08-17</span>
+                    <a href="https://iamtrask.github.io/2016/08/17/grokking-deep-learning/">Grokking Deep Learning</a>
+                </li>
+                <li>
+                    <span class="date">2016-02-25</span>
+                    <a href="https://iamtrask.github.io/2016/02/25/deepminds-neural-stack-machine/">How to Code and Understand DeepMind's Neural Stack Machine</a>
+                </li>
+                <li>
+                    <span class="date">2015-11-15</span>
+                    <a href="https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/">Anyone Can Learn To Code an LSTM-RNN in Python (Part 1: RNN)</a>
+                </li>
+                <li>
+                    <span class="date">2015-07-28</span>
+                    <a href="https://iamtrask.github.io/2015/07/28/dropout/">Hinton's Dropout in 3 Lines of Python</a>
+                </li>
+                <li>
+                    <span class="date">2015-07-27</span>
+                    <a href="https://iamtrask.github.io/2015/07/27/python-network-part2/">A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)</a>
+                </li>
+                <li>
+                    <span class="date">2015-07-12</span>
+                    <a href="https://iamtrask.github.io/2015/07/12/basic-python-network/">A Neural Network in 11 lines of Python (Part 1)</a>
+                </li>
+                <li>
+                    <span class="date">2014-11-23</span>
+                    <a href="https://iamtrask.github.io/2014/11/23/harry-potter/">Word2Vec Analysis of Harry Potter</a>
+                </li>
+                <li>
+                    <span class="date">2014-11-23</span>
+                    <a href="https://iamtrask.github.io/2014/11/23/cython-blas-fortran/">Tutorial: when Numpy isn't fast enough...</a>
+                </li>
+                <li>
+                    <span class="date">2014-11-22</span>
+                    <a href="https://iamtrask.github.io/2014/11/22/spark-gpu/">Tutorial: Spark-GPU Cluster Dev in a Notebook</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="press">
+            <h2>press</h2>
+            <ul class="blog-posts">
+                <li>
+                    <a href="https://www.wired.com/story/us-needs-open-source-ai-model-intervention-china/">Wired: The US Needs Its Own Open Source AI Model to Rival China</a>
+                </li>
+                <li>
+                    <a href="https://spectrum.ieee.org/biggest-neural-network-ever-pushes-ai-deep-learning">IEEE Spectrum: Biggest Neural Network Ever Pushes AI Deep Learning</a>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>
+                <a href="https://twitter.com/iamtrask">Twitter</a> &middot;
+                <a href="https://github.com/iamtrask">GitHub</a> &middot;
+                <a href="https://www.linkedin.com/in/andrew-trask-3763ba15b/">LinkedIn</a> &middot;
+                <a href="https://scholar.google.com/citations?user=2Ajxf1sAAAAJ&hl=en">Scholar</a> &middot;
+                <a href="https://iamtrask.github.io">Blog</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
