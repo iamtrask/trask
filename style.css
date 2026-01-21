@@ -643,6 +643,7 @@ footer a:hover {
     .scaled-timeline {
         height: auto;
         grid-template-columns: 1fr;
+        overflow: hidden;
     }
 
     .year-axis {
@@ -659,6 +660,8 @@ footer a:hover {
         min-height: 120px;
         padding-left: 25px;
         padding-bottom: 20px;
+        position: relative;
+        overflow: hidden;
     }
 
     .track-line,
@@ -666,7 +669,7 @@ footer a:hover {
         position: absolute;
         left: 0;
         top: 0;
-        height: 100% !important;
+        height: calc(100% - 20px) !important;
     }
 
     .track-content {
@@ -681,6 +684,11 @@ footer a:hover {
         font-size: 0.8rem;
         color: #666;
         margin-bottom: 10px;
+    }
+
+    #bio {
+        clear: both;
+        position: relative;
     }
 }
 
